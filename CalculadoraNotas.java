@@ -3,10 +3,8 @@
 public class CalculadoraNotas {
     public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
-        //Scanner classe metodo scanner para ler os dados
         int TotalAlunos = 0;
-        System.out.println("=== SISTEMA DE NOTAS - VERSÃO 2.0 === ");
-        //pra pular pra outra linha ln
+        System.out.println("=== SISTEMA DE NOTAS - VERSÃO 2.0 === ")
         while (true) {
         System.out.print("Digite o nome do aluno(ou 'fim' para encerrar): ");
         String nome = scanner.nextLine();
@@ -44,7 +42,7 @@ public class CalculadoraNotas {
         System.out.println("Nome: " + nome);
         System.out.println("Nota 1: " + notan1);
         System.out.println("Nota 2: " + notan2);
-        System.out.println("Média: " + media); //separa por virgula
+        System.out.println("Média: " + media); 
         System.out.println("Situação: " + situacao);
         System.out.println("Maior nota: " + MaiorNota);
 
@@ -60,5 +58,6 @@ public class CalculadoraNotas {
 
     }
 }
+
 
 
